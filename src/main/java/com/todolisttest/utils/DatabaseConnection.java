@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/todolist_test";
-    private static final String USER = "root";
-    private static final String PASSWORD = "123456";
+    private static final String USER = "seu_usuarui"; //Informe seu usuário
+    private static final String PASSWORD = "sua_senha"; //informe sua senha
 
     public static Connection getConnection() throws SQLException {
         System.out.println("Conexão com o BD realizada com sucesso!");
