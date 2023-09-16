@@ -39,6 +39,7 @@ INSERT INTO tarefas (descricao, finalizada) VALUES
     ('Estudar Java', false),
     ('Fazer compras', true),
     ('Preparar apresentação', false);
+```
 
 3. No arquivo `DatabaseConnection.java`, atualize as informações de conexão com o banco de dados, como o URL, o nome de usuário e a senha de acordo com a configuração do seu MySQL.
 
